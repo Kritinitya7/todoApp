@@ -1,9 +1,10 @@
 /* eslint-disable react/prop-types */
 import TodoItem from "./TodoItem";
+import styles from "./TodoItens.module.css";
 
 const TodoItems = ({ todoItems }) => {
   return (
-    <div className="items-container">
+    <div className={styles.itemsContainer}>
       {todoItems.map((item) => (
         // eslint-disable-next-line react/jsx-key
         <TodoItem todoDate={item.dueDate} todoName={item.name}></TodoItem>
@@ -11,4 +12,5 @@ const TodoItems = ({ todoItems }) => {
     </div>
   );
 };
+
 export default TodoItems;

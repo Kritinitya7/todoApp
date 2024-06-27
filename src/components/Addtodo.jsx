@@ -1,4 +1,4 @@
-function Addtodo() {
+function AddTodo() {
   return (
     <div className="container text-center">
       <div className="row kg-row">
@@ -17,4 +17,5 @@ function Addtodo() {
     </div>
   );
 }
-export default Addtodo;
+
+export default AddTodo;
