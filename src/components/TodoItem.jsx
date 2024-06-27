@@ -1,6 +1,5 @@
-function TodoItem() {
-  let todoName = "Buy Item";
-  let todoDate = "19/03/2024";
+/* eslint-disable react/prop-types */
+function TodoItem({ todoName, todoDate }) {
   return (
     <div className="container">
       <div className="row kg-row">
